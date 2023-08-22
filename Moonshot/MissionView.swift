@@ -26,6 +26,10 @@ struct MissionView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(maxWidth: geometry.size.width * 0.6)
+                    
+                    Text(mission.launchDate?.formatted(date: .complete, time: .omitted) ?? "N/A")
+                        .font(.title2.bold())
+                        .padding(.top)
 
                     VStack(alignment: .leading) {
                         
