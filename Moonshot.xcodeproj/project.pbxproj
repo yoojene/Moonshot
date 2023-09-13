@@ -53,8 +53,6 @@
 		44C3BE4F2A93C29300C24054 = {
 			isa = PBXGroup;
 			children = (
-				4450A8332A94BD320093B8F4 /* CrewView.swift */,
-				4450A8312A94B4240093B8F4 /* AstronautView.swift */,
 				44C3BE5A2A93C29300C24054 /* Moonshot */,
 				44C3BE592A93C29300C24054 /* Products */,
 			);
@@ -71,6 +69,8 @@
 		44C3BE5A2A93C29300C24054 /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				4450A8332A94BD320093B8F4 /* CrewView.swift */,
+				4450A8312A94B4240093B8F4 /* AstronautView.swift */,
 				4450A8222A93E9A40093B8F4 /* astronauts.json */,
 				4450A8272A93EFE30093B8F4 /* Astronaut.swift */,
 				4450A8292A93F1E20093B8F4 /* Bundle-Decodable.swift */,
